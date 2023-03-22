@@ -1,0 +1,6 @@
+# see https://github.com/ELIXIR-Belgium/elixir-toolkit-theme
+subitems:
+  - title: Home
+    url: /
+  - title: Guide template
+    url: /docs/guide_template
