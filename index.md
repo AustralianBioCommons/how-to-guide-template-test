@@ -6,7 +6,7 @@ toc: false
 > **Before you start using this template repository**
 
 > 1. Update the title for your guide in the [markdown header for this page](https://github.com/AustralianBioCommons/how-to-guide-template/blob/main/index.md?plain=1#L2): this will be the title for the deployed web page.
-> 2. Consult the instructions in [**contributing.md**](/contributing.md).
+> 2. Consult the instructions in [**contributing.md**](/docs/contributing.md).
 > 3. Review the structure of the [**guide_template**](/docs/guide_template.md).
 > 4. Make sure all How-to Guide documents are added to the [**/docs**](https://github.com/AustralianBioCommons/how-to-guide-template/tree/main/docs) directory: this is to ensure proper functionality and organisation of the repository should you wish to add more than one guide document.
 > 5. Update the licence, if needed, to another open source option (it is currently Apache Version 2.0): visit https://choosealicense.com/ for more information.

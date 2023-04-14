@@ -2,5 +2,7 @@
 subitems:
   - title: Home
     url: /
+  - title: Contributing
+    url: /docs/contributing
   - title: Guide template
     url: /docs/guide_template
