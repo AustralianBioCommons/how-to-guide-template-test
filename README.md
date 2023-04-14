@@ -7,7 +7,7 @@ The template aims to:
 - Reduce time spent creating guides by providing a standard structure to develop and maintain guidance material; and,
 - Allow linking to Zenodo, and DOIs for each release
 
-Please see the [contributing section](/contributing.md) for more information on how to use this template. 
+Please see the [deployed web page for this template](https://australianbiocommons.github.io/how-to-guide-template/) for more information on how to get started.  
 
 
 ## Acknowledgements for the guides

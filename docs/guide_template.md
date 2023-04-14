@@ -1,29 +1,57 @@
 ---
-title: [How-to-Guide template]
+title: [How-to Guide template]
 contributors: [Johan Gustafsson]
 description: Add a plain text description here.
 affiliations: [Australian BioCommons]
 ---
 
-> Before you start using this template!
-> 1. Add your name to the contributors section of the guide above
-> 2. Make sure to also add your name to [`CONTRIBUTORS.yml`](_data/CONTRIBUTORS.yml)
-> 3. Add a plain text description to the section above
-> 4. Add affiliations to the section above: make sure to also update [`affiliations.yml`](_data/affiliations.yml) if you are adding a new affiliation!
-> 5. Add citation information in the format provided below:
+> **Start of instruction section - TO BE DELETED WHEN GUIDE IS COMPLETE**
 
-**Note:** if this guide helped you, please cite it as follows
+Before you start using this template!
+
+1. Make sure to update the [header content for this guide document](https://github.com/AustralianBioCommons/how-to-guide-template/blob/main/docs/guide_template.md?plain=1#L3), an example of which is included below:
+
+```
+---
+title: [How-to Guide template]
+contributors: [Johan Gustafsson]
+description: Add a plain text description here.
+affiliations: [Australian BioCommons]
+---   
+```
+
+2. Add your name to [`CONTRIBUTORS.yml`](https://github.com/AustralianBioCommons/how-to-guide-template/blob/04eba24a187202304df7dee73e867cfe5db10d31/_data/CONTRIBUTORS.yml)
+3. If you are adding a new affiliation!, make sure to also update [`affiliations.yml`](https://github.com/AustralianBioCommons/how-to-guide-template/blob/04eba24a187202304df7dee73e867cfe5db10d31/_data/affiliations.yml). The affiliations noted in step #1 above require this information to be available. Example affiliation is available below: 
+
+```
+- name: Galaxy Australia
+  image_url: /images/infrastructures/galaxy-aust-logo-portrait-CMYK.png
+  expose: true
+  type: infrastructure
+  url: https://usegalaxy.org.au/
+```
+{% include callout.html type="note" content="You can add logos to the `/images` directory." %} 
+
+4. Add citation information in the format provided below:
+
+> **Note:** if this guide helped you, please cite it as follows
+>
 > Citation information goes here!
 
-> 6. Delete these instructions!
+5. Delete these instructions!
+
+> **End of instruction section**
+
 
 ## heading 1
 
 Content goes here!
 
-Adding an image:
+Add an image by adding this code:
 
->{% include image.html file="Australian-Biocommons-Logo-Horizontal-144dpi-Transparent.png" caption="Fig 1. Australian BioCommons logo"%}
+```
+{% include image.html file="Australian-Biocommons-Logo-Horizontal-144dpi-Transparent.png" caption="Fig 1. Australian BioCommons logo"%}
+```
 
 {% include image.html file="Australian-Biocommons-Logo-Horizontal-144dpi-Transparent.png" caption="Fig 1. Australian BioCommons logo"%}
 
@@ -36,7 +64,10 @@ Content goes here!
 Below is an example callout, which comes in multiple styles: `note`, `important`, `tip` and `warning`.
 The bold section of the script below should include one of these styles. The content text in *italics* can be modified as needed.
         
->{% include callout.html type="**note**" content="*callout content text*" %}
+```
+{% include callout.html type="**note**" content="*callout content text*" %}
+{% include callout.html type="note" content="If you need help, the Galaxy community is both approachable and helpful. [Ask them questions!](https://help.galaxyproject.org/)" %}
+```
 
 {% include callout.html type="note" content="If you need help, the Galaxy community is both approachable and helpful. [Ask them questions!](https://help.galaxyproject.org/)" %}
 
