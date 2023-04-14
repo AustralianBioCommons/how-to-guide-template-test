@@ -20,8 +20,8 @@ affiliations: [Australian BioCommons]
 ---   
 ```
 
-2. Add your name to [`CONTRIBUTORS.yml`](https://github.com/AustralianBioCommons/how-to-guide-template/blob/04eba24a187202304df7dee73e867cfe5db10d31/_data/CONTRIBUTORS.yml)
-3. If you are adding a new affiliation!, make sure to also update [`affiliations.yml`](https://github.com/AustralianBioCommons/how-to-guide-template/blob/04eba24a187202304df7dee73e867cfe5db10d31/_data/affiliations.yml). The affiliations noted in step #1 above require this information to be available. Example affiliation is available below: 
+- Add your name to [`CONTRIBUTORS.yml`](https://github.com/AustralianBioCommons/how-to-guide-template/blob/04eba24a187202304df7dee73e867cfe5db10d31/_data/CONTRIBUTORS.yml)
+- If you are adding a new affiliation!, make sure to also update [`affiliations.yml`](https://github.com/AustralianBioCommons/how-to-guide-template/blob/04eba24a187202304df7dee73e867cfe5db10d31/_data/affiliations.yml). The affiliations noted in step #1 above require this information to be available. Example affiliation is available below: 
 
 ```
 - name: Galaxy Australia
@@ -32,13 +32,13 @@ affiliations: [Australian BioCommons]
 ```
 {% include callout.html type="note" content="You can add logos to the `/images` directory." %} 
 
-4. Add citation information in the format provided below:
+- Add citation information in the format provided below:
 
 > **Note:** if this guide helped you, please cite it as follows
 >
 > Citation information goes here!
 
-5. Delete these instructions!
+- Delete these instructions!
 
 > **End of instruction section**
 

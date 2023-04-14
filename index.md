@@ -27,12 +27,11 @@ toc: false
 
 **OPTIONAL:** You can use this section to add tiles for all guide documents in `/docs` using the following code:
 
-1. Add the following code to this page:
+- Add the following code to this page:
 
         {% include section-navigation-tiles.html type="docs"%}
 
-
-2. Add the following section to the bottom of the [`_config.yml](/_config.yml) file
+- Add the following section to the bottom of the [`_config.yml](/_config.yml) file
 
         -
         scope:

@@ -3,13 +3,12 @@ title: "How-to Guide"
 description: A bioinformatics focused How-to Guide
 remote_theme: ELIXIR-Belgium/jekyll-bootstrap-theme@1.23.0
 topnav_title: How-to Guide
-gtag: G-T8GWK081T9
 
 theme_variables:
   # biocommons blue
   theme_color: 205a86
-  topnav:
-    brand_logo: assets/img/main_logo.png
+  #topnav:
+  #  brand_logo: assets/img/main_logo.png
   privacy_statement_url: https://www.biocommons.org.au/privacy
 
 permalink: /:categories/:year/:month/:day/:title
