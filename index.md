@@ -29,20 +29,18 @@ toc: false
 
 1. Add the following code to this page:
 
-```
-{% include section-navigation-tiles.html type="docs"%}
-```
+        {% include section-navigation-tiles.html type="docs"%}
+
 
 2. Add the following section to the bottom of the [`_config.yml](/_config.yml) file
- 
-```
-    -
-    scope:
-      path: "docs"
-      type: "pages"
-    values:
-      type: guide_documents
-```
+
+        -
+        scope:
+            path: "docs"
+            type: "pages"
+        values:
+            type: guide_documents
+
 
 An example can be viewed here: https://australianbiocommons.github.io/how-to-guides/
 
@@ -50,23 +48,20 @@ An example can be viewed here: https://australianbiocommons.github.io/how-to-gui
 
 To create tiles for a specific subset of your guides add the following to the bottom of the [`_config.yml](/_config.yml) file.
 
-```
     -
     scope:
       path: "docs/genome_assembly"
       type: "pages"
     values:
       type: assembly_guides
-```
 
 The `path` field above (value = `docs/genome_assembly`) refers to a new directory called `genome_assembly`, which needs to be created in the `docs` directory.
 The guides you wish to appear as tiles need to be in this new directory. The `type` field above (value = `assembly_guides`) is the ID for this subset of guide documents.
 
 Finally add the following code to this page, including the `type`:
 
-```
-{% include section-navigation-tiles.html type="assembly_guides"%}
-```
+    {% include section-navigation-tiles.html type="assembly_guides"%}
+
 
 
 ## Acknowledgements
