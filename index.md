@@ -39,7 +39,7 @@ The template aims to:
 >
 > Add the following code to this page:
 
-        `{% include section-navigation-tiles.html type="docs"%}`
+        "{% include section-navigation-tiles.html type="docs"%}"
 
 > Add the following section to the bottom of the [`_config.yml](/_config.yml) file
 
@@ -67,7 +67,7 @@ The guides you wish to appear as tiles need to be in this new directory. The `ty
 >
 > Finally, add the following code to this page, including the `type`:
 
-    `{% include section-navigation-tiles.html type="assembly_guides"%}`
+    "{% include section-navigation-tiles.html type="assembly_guides"%}"
 
 
 
