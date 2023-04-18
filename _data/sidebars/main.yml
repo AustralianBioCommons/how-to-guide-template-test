@@ -1,12 +1,8 @@
 # see https://github.com/ELIXIR-Belgium/elixir-toolkit-theme
 subitems:
-  - title: How to contribute
-    url: /
   - title: Using the template to create a new guide
-    url: /template_instructions
+    url: /
   - title: Single page template
     url: /docs/guide_template
   - title: Contributors list
     url: /contributors
-  - title: FAQs
-    url: /docs/faq
