@@ -39,7 +39,7 @@ The template aims to:
 >
 > See [this page](https://elixir-belgium.github.io/elixir-toolkit-theme/overview_tiles#section-tiles-with-information) for more information.
 
-{% include image.html file="images/nav_image.png" alt="ELIXIR logo"%}
+{% include image.html file="/images/nav_image.png" alt="nav_image"%}
 
 > Make sure that `type="docs"` matches the values `type` in the code you also need to add to the bottom of the [`_config.yml](/_config.yml) file
 
