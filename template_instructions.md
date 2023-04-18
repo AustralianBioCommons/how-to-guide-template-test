@@ -3,7 +3,7 @@ title: Using this template to create a new guide
 toc: false
 ---
 
-## Usage instructions for template
+## Usage instructions
 
 {% include callout.html type="warning" content="Delete this section before publishing your content." %}
 
