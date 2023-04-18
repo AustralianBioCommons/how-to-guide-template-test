@@ -35,21 +35,20 @@ The template aims to:
 
 ## Guide sections
 
-> You can use this section to add tiles for **ALL** guide documents in `/docs`:
+> You can use this section to add tiles for **ALL** guide documents in `/docs`.
 >
-> Add the following code to this page:
+> See [this page](https://elixir-belgium.github.io/elixir-toolkit-theme/overview_tiles#section-tiles-with-information) for more information.
 
-> {% include section-navigation-tiles.html type="docs"%}
+{% include image.html file="images/nav_image.png" alt="ELIXIR logo"%}
 
-> Add the following section to the bottom of the [`_config.yml](/_config.yml) file
+> Make sure that `type="docs"` matches the values `type` in the code you also need to add to the bottom of the [`_config.yml](/_config.yml) file
 
         -
         scope:
             path: "docs"
             type: "pages"
         values:
-            type: guide_documents
-
+            type: docs
 
 > An example can be viewed here: https://australianbiocommons.github.io/how-to-guides/
 
@@ -64,11 +63,6 @@ The template aims to:
 
 > The `path` field above (value = `docs/genome_assembly`) refers to a new directory called `genome_assembly`, which needs to be created in the `docs` directory.
 The guides you wish to appear as tiles need to be in this new directory. The `type` field above (value = `assembly_guides`) is the ID for this subset of guide documents.
->
-> Finally, add the following code to this page, including the `type`:
-
-> {% include section-navigation-tiles.html type="assembly_guides"%}
-
 
 
 ## Acknowledgements

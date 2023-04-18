@@ -1,5 +1,5 @@
 ---
-title: [How-to Guide template]
+title: [Template for individual guide page]
 contributors: [Johan Gustafsson]
 description: Add a plain text description here.
 affiliations: [Australian BioCommons]
@@ -45,23 +45,20 @@ affiliations: [Australian BioCommons]
 
 ## heading 1
 
-> Content goes here!
+> Your guide content goes here!
 >
 > See [this link](https://elixir-belgium.github.io/elixir-toolkit-theme/markdown_cheat_sheet#images) for info on adding images.
 
 ### heading 2
 
-> Content goes here!
+> Your guide content goes here!
 >
-> Below is an example callout, which comes in multiple styles: `note`, `important`, `tip` and `warning`.
-The bold section of the script below should include one of these styles. The content text in *italics* can be modified as needed.
-        
-> {% include callout.html type="**note**" content="*callout content text*" %}
+> Below is an example message box, which comes in multiple styles: `note`, `important`, `tip` and `warning`.
+>
+> See [https://elixir-belgium.github.io/elixir-toolkit-theme/markdown_cheat_sheet#message-boxes) for info on adding message boxes.
 
 {% include callout.html type="note" content="If you need help, the Galaxy community is both approachable and helpful. [Ask them questions!](https://help.galaxyproject.org/)" %}
 
-> See more examples of these callouts [here](https://elixir-belgium.github.io/elixir-toolkit-theme/markdown_cheat_sheet#message-boxes).
-
 #### heading 3
 
-Content goes here!
+> Your guide content goes here!
