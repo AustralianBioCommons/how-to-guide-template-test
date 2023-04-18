@@ -1,0 +1,80 @@
+---
+title: Using this template to create a new guide
+toc: false
+---
+
+## Usage instructions for template
+
+{% include callout.html type="warning" content="Delete this section before publishing your content." %}
+
+### About this template
+
+This template is intended to house material for step-by-step guides and other associated documentation that support the reuse of bioinformatics tools, workflows and data on Australian compute systems and infrastructure.
+
+The template aims to:
+- Reduce time spent creating guides by providing a standard structure to develop and maintain guidance material; and,
+- Allow linking to Zenodo, and creation of DOIs for each release. More information is [available in GitHub docs](https://docs.github.com/en/repositories/archiving-a-github-repository/referencing-and-citing-content).
+
+### To start using this template
+
+1. Consult the instructions in [**Contributing to the How-to Guides**](/index.md).
+2. Review the structure of the [**guide_template**](/docs/guide_template.md) and the instructions included there.
+3. Update the title for your guide in the [markdown header for this page](https://github.com/AustralianBioCommons/how-to-guide-template/blob/main/index.md?plain=1#L2): this will be the title for the deployed web page.
+4. Make sure all How-to Guide documents are added to the [**/docs**](https://github.com/AustralianBioCommons/how-to-guide-template/tree/main/docs) directory: this is to ensure proper functionality and organisation of the repository should you wish to add more than one guide document.
+5. Update the licence, if needed, to another open source option (it is currently Apache Version 2.0): visit [https://choosealicense.com/](https://choosealicense.com/) for more information.
+6. Don't forget to add to the `About` and `Acknowledgments` sections below.
+7. You can also add navigation tiles that link to each guide page: see the `Guide sections` instructions below for more information.
+
+{% include callout.html type="note" content="the instructions above are for a simple guide that can accommodate a few pages only: if you require more complicated structures, please contact @supernord" %}
+
+
+## About 
+
+> Add 2-3 sentences here explaining the purpose of the specific guide you are creating.
+
+
+## Guide sections
+
+> You can use this section to add tiles for **ALL** guide documents in `/docs`.
+>
+> See [this page](https://elixir-belgium.github.io/elixir-toolkit-theme/overview_tiles#section-tiles-with-information) for more information.
+
+{% include image.html file="nav_image.png" alt="nav_image"%}
+
+> Make sure that `type="docs"` matches the values `type` in the code you also need to add to the bottom of the [`_config.yml](/_config.yml) file
+
+        -
+        scope:
+            path: "docs"
+            type: "pages"
+        values:
+            type: docs
+
+> An example can be viewed here: https://australianbiocommons.github.io/how-to-guides/
+
+> To create tiles for **ONLY a specific subset** of your guides add the following to the bottom of the [`_config.yml](/_config.yml) file.
+
+    -
+    scope:
+      path: "docs/genome_assembly"
+      type: "pages"
+    values:
+      type: assembly_guides
+
+> The `path` field above (value = `docs/genome_assembly`) refers to a new directory called `genome_assembly`, which needs to be created in the `docs` directory.
+The guides you wish to appear as tiles need to be in this new directory. The `type` field above (value = `assembly_guides`) is the ID for this subset of guide documents.
+
+
+## Acknowledgements
+
+> Don't delete anything from this section, only add.
+
+This guide makes use of the ELIXIR toolkit theme: [![theme badge](https://img.shields.io/badge/ELIXIR%20toolkit%20theme-jekyll-blue?color=0d6efd)](https://github.com/ELIXIR-Belgium/elixir-toolkit-theme)
+
+
+## References
+
+> Add references as needed.
+
+
+
