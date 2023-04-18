@@ -45,15 +45,7 @@ affiliations: [Australian BioCommons]
 
 Content goes here!
 
-Add an image by adding this code:
-
-```
-{% include image.html file="Australian-Biocommons-Logo-Horizontal-144dpi-Transparent.png" caption="Fig 1. Australian BioCommons logo"%}
-```
-
-{% include image.html file="Australian-Biocommons-Logo-Horizontal-144dpi-Transparent.png" caption="Fig 1. Australian BioCommons logo"%}
-
-See [this link](https://elixir-belgium.github.io/elixir-toolkit-theme/markdown_cheat_sheet#images) for more info on images.
+See [this link](https://elixir-belgium.github.io/elixir-toolkit-theme/markdown_cheat_sheet#images) for info on adding images.
 
 ### heading 2
 
