@@ -1,5 +1,5 @@
 ---
-title: Using this template to create a new guide
+title: How-to Guide for creating a How-to Guide
 toc: false
 ---
 
@@ -28,53 +28,40 @@ The template aims to:
 {% include callout.html type="note" content="the instructions above are for a simple guide that can accommodate a few pages only: if you require more complicated structures, please contact @supernord" %}
 
 
-## About 
+## About
 
-> Add 2-3 sentences here explaining the purpose of the specific guide you are creating.
+You are viewing a web page that describes How-to create new How-to Guides using a GitHub repository template. What are How-to Guides? They are step-by-step guides that support the reuse of bioinformatics tools, workflows and data on Australian compute systems and infrastructure.
+
+The template described in these docs aims to:
+- **Reduce the time you spend** creating guides by providing a standard structure to develop and maintain guidance material;
+- Allow you to **easily deploy these guides** using GitHub pages and a remote theme provided by ELIXIR; and,
+- Allow linking to Zenodo and **creation of DOIs** for each release. You created the content, others should be able to cite it!
+
+{% include callout.html type="note" content="the instructions below are for a simple guide that can accommodate a few pages only: if you require more complicated structures, please contact @supernord" %}
 
 
 ## Guide sections
 
-> You can use this section to add tiles for **ALL** guide documents in `/docs`.
->
-> See [this page](https://elixir-belgium.github.io/elixir-toolkit-theme/overview_tiles#section-tiles-with-information) for more information.
+{% include callout.html type="important" content="Click the tiles below to view the pages for creating new How-to Guides!" %} 
 
-{% include image.html file="nav_image.png" alt="nav_image"%}
+{% include section-navigation-tiles-simple.html type="template" %}
 
-> Make sure that `type="docs"` matches the values `type` in the code you also need to add to the bottom of the [`_config.yml](/_config.yml) file
 
-        -
-        scope:
-            path: "docs"
-            type: "pages"
-        values:
-            type: docs
+## Please cite this guide as follows
 
-> An example can be viewed here: https://australianbiocommons.github.io/how-to-guides/
-
-> To create tiles for **ONLY a specific subset** of your guides add the following to the bottom of the [`_config.yml](/_config.yml) file.
-
-    -
-    scope:
-      path: "docs/genome_assembly"
-      type: "pages"
-    values:
-      type: assembly_guides
-
-> The `path` field above (value = `docs/genome_assembly`) refers to a new directory called `genome_assembly`, which needs to be created in the `docs` directory.
-The guides you wish to appear as tiles need to be in this new directory. The `type` field above (value = `assembly_guides`) is the ID for this subset of guide documents.
+> [Citation information goes here]
 
 
 ## Acknowledgements
-
-> Don't delete anything from this section, only add.
 
 This guide makes use of the ELIXIR toolkit theme: [![theme badge](https://img.shields.io/badge/ELIXIR%20toolkit%20theme-jekyll-blue?color=0d6efd)](https://github.com/ELIXIR-Belgium/elixir-toolkit-theme)
 
 
 ## References
 
-> Add references as needed.
-
+> CFF file reference
+> ELIXIR Tool Kit theme citation
+> BioCommons reference
+> 
 
 
