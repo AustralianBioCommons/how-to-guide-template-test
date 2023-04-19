@@ -24,4 +24,5 @@ defaults:
     values:
       layout: "page"
       sidebar: main
+      type: "template"
 

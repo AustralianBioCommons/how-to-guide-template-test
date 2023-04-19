@@ -6,7 +6,9 @@ toc: false
 
 ## About
 
-You are viewing a web page that describes How-to create new How-to Guides using a GitHub repository template. What are How-to Guides? They are step-by-step guides that support the reuse of bioinformatics tools, workflows and data on Australian compute systems and infrastructure.
+You are viewing a web page that describes How-to create new How-to Guides using a GitHub repository template. 
+
+**What are How-to Guides?** They are step-by-step guides that support the reuse of bioinformatics tools, workflows and data on Australian compute systems and infrastructure.
 
 The template described in these docs aims to:
 - **Reduce the time you spend** creating guides by providing a standard structure to develop and maintain guidance material;

@@ -11,11 +11,11 @@ Individual pages are created using the [`guide_template.md`](docs/guide_template
 
 ## For each new page
 
-### Copy `guide_template.md` and rename it
+### 1. Copy `guide_template.md` and rename it
 
-### Add these files to the `/docs` directory to keep your work organised
+### 2. Add these files to the `/docs` directory to keep your work organised
 
-### Update the header content
+### 3. Update the header content
 
 An example of this is included below. You need to add a `title`, `contributors`, `description` and `affiliations`.
 
