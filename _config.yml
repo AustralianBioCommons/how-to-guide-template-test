@@ -27,7 +27,7 @@ defaults:
 
   -
     scope:
-      path: "/docs/start"
+      path: "docs/start"
       type: "pages"
     values:
       type: "start_here"

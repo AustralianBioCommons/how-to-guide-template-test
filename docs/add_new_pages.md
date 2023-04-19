@@ -11,13 +11,9 @@ Individual pages are created using the [`guide_template.md`](docs/guide_template
 
 ## For each new page
 
-### 1. Copy `guide_template.md` and rename it
-
-### 2. Add these files to the `/docs` directory to keep your work organised
-
-### 3. Update the header content
-
-An example of this is included below. You need to add a `title`, `contributors`, `description` and `affiliations`.
+1. Copy `guide_template.md` and rename it
+2. Add these files to the `/docs` directory to keep your work organised
+3. Update the header content. An example of this is included below. You need to add a `title`, `contributors`, `description` and `affiliations`.
 
 ```
 ---
@@ -31,13 +27,15 @@ affiliations: [Australian BioCommons]
 
 ## Other required information
 
-### Add your name to `CONTRIBUTORS.yml`
+{:start="4"}
+4. Add your name to `CONTRIBUTORS.yml`
 
 This ensures your name renders properly on each guide page that it has been added to. 
 
 The file can be found in the `/_data` directory.
 
-###  Update `affiliations.yml` (if needed)
+{:start="5"}
+5.  Update `affiliations.yml` (if needed)
 
 If you are adding a new affiliation, also update `affiliations.yml`, which can also be found in the `/_data` directory. 
    - The affiliations in the header content above require this information to be available. 

@@ -7,19 +7,20 @@ toc: false
 ---
 
 
-### [Create a GitHub release]()
+### GitHub & Zenodo
 
-### Link your repository to Zenodo
+1. [Create a GitHub release](https://docs.github.com/en/repositories/releasing-projects-on-github/about-releases)
 
-More information is [available in GitHub docs](https://docs.github.com/en/repositories/archiving-a-github-repository/referencing-and-citing-content). 
+2. Link your repository to Zenodo. More information is [available in GitHub docs](https://docs.github.com/en/repositories/archiving-a-github-repository/referencing-and-citing-content). 
 
-### Update your guides
 
-#### Add the DOI into your how-to-cite instructions on the `index.md` page
+### Adding the DOI to your guide
 
-#### Update the DOI field in the `CITATION.cff` file. 
+3. Add the DOI (or even a complete citation!) into your how-to-cite instructions on the `index.md` page
 
-A blank `CITATION.cff` example is provided below. Don't forget to fill out the other metadata in this file!
+4. Update the DOI field in the `CITATION.cff` file. 
+
+{% include callout.html type="important" content="A blank `CITATION.cff` example is provided below. Don't forget to fill out the other metadata in this file!" %} 
 
 ```
 cff-version: 0.0.0
