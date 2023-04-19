@@ -22,7 +22,7 @@ The template described in these docs aims to:
 
 {% include callout.html type="important" content="Click the tiles below to view the pages for creating new How-to Guides!" %} 
 
-{% include section-navigation-tiles-simple.html type="template" %}
+{% include section-navigation-tiles.html type="creating-how-to-guides" %}
 
 
 ## Please cite this guide as follows

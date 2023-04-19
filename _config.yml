@@ -24,5 +24,5 @@ defaults:
     values:
       layout: "page"
       sidebar: main
-      type: "template"
+      type: "creating-how-to-guides"
 
