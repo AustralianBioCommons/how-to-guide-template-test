@@ -7,10 +7,10 @@ toc: false
 ---
 
 
-### Deploy to GitHub pages
+### 1. Deploy to GitHub pages
 
-### Testing content
+### 2. Testing content
 
-### Make sure you get feedback to improve your guide content
+### 3. Make sure you get feedback to improve your guide content
  
  

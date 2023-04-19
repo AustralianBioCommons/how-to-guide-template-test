@@ -24,5 +24,10 @@ defaults:
     values:
       layout: "page"
       sidebar: main
-      type: "creating-how-to-guides"
 
+  -
+    scope:
+      path: "/docs/start"
+      type: "pages"
+    values:
+      type: "start_here"
