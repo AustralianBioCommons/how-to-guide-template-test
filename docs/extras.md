@@ -3,6 +3,7 @@ title: Adding extras to improve your How-to Guide
 contributors: [Johan Gustafsson]
 description: How to add and configure elements from the ELIXIR Toolkit theme that will improve the appearance and function of your How-to Guides.
 affiliations: [Australian BioCommons]
+toc: true
 ---
 
 

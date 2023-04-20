@@ -24,10 +24,3 @@ defaults:
     values:
       layout: "page"
       sidebar: main
-
-  -
-    scope:
-      path: "docs/start"
-      type: "pages"
-    values:
-      type: "start_here"
