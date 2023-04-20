@@ -55,9 +55,9 @@ scope:
    path: "docs/start"
    type: "pages"
 values:
-   type: start
+   type: start_here
 ```
 
 ### Example
 
-{% include section-navigation-tiles.html type="start" %}
+{% include section-navigation-tiles.html type="start_here" %}
