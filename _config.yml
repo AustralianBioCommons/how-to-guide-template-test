@@ -1,6 +1,6 @@
 # see https://github.com/ELIXIR-Belgium/elixir-toolkit-theme
-title: "How-to Guide"
-description: A bioinformatics focused How-to Guide
+title: "How-to create a How-to Guide"
+description: How to create and begin updating a repository for a new How-to Guide, based on a template repository.
 remote_theme: ELIXIR-Belgium/jekyll-bootstrap-theme@1.23.0
 #topnav_title: How-to Guide
 

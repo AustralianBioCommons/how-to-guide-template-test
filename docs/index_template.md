@@ -1,7 +1,9 @@
 ---
 title: How-to Guide landing page template
 type: template
-toc: false
+contributors: [Johan Gustafsson]
+description: Add a plain text description here.
+affiliations: [Australian BioCommons]
 ---
 
 

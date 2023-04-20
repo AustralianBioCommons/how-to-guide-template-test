@@ -16,7 +16,7 @@ See the [ELIXIR Toolkit theme](https://elixir-belgium.github.io/elixir-toolkit-t
 
 To add tiles for guide pages that you have created, add the following code to the page you would like the tiles to appear on:
 
-    {% include section-navigation-tiles.html %}
+{% include section-navigation-tiles.html type="guides" %}
 
 You can also add the following:
 - `type="type_value"` : only shows tiles for pages that have the indicated `type_value` in the page header
