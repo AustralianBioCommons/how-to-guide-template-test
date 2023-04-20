@@ -3,11 +3,11 @@ subitems:
   - title: About
     url: /
   - title: Quick start guide
-    url: /docs/start/quick_start
+    url: /docs/quick_start
   - title: In-depth guide
     subitems:
       - title: 1. Create a new repository
-        url: /docs/start/create_new
+        url: /docs/create_new
       - title: 2. Update your landing page content
         url: /docs/update_index
       - title: 3. Add new pages to your guide
