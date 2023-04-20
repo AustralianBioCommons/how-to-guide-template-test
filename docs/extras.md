@@ -16,48 +16,36 @@ See the [ELIXIR Toolkit theme](https://elixir-belgium.github.io/elixir-toolkit-t
 
 ### Include navigation tiles for all pages
 
-To add tiles for the guide pages that you have created:
-
-1. Ensure they are all in the same directory (e.g. the `docs/` directory for this guide)
-2. Add the following code to the page you would like the tiles to appear on:
+To add tiles for the guide pages that you have created, add the following code to the page you would like the tiles to appear on:
 
 {% include image.html file="nav_image.png" alt="nav_image"%}
-
-3. Add the following code to the bottom of the `_config.yml` file:
-
-```
--
-scope:
-   path: "docs"
-   type: "pages"
-values:
-   type: docs
-```
 
 
 ### Example
 
-{% include section-navigation-tiles.html type="docs" %}
+{% include section-navigation-tiles.html %}
 
 
 ### Include navigation tiles for a subset of pages
 
 To create tiles for a specific subset of your guide pages:
 
-1. Ensure the subset pages are in the same directory (e.g. the `docs/start` directory for this guide)
-2. Add the same code as above to the page where you would like the tiles to appear: just change the type value (e.g. to `start`)
-3. Change the code at the bottom of the [`_config.yml](/_config.yml) file so that:
-   - the `path` field is the directory containing your pages: i.e. `docs/start`
-   - the `type` field matches that for the code that includes the tiles on your page: i.e. `start`
+1. Add a `type` field to the header for each of the guides that are included in your subset. For example:
 
 ```
--
-scope:
-   path: "docs/start"
-   type: "pages"
-values:
-   type: start_here
+---
+title: Creating a new How-to Guide repository
+type: start_here
+contributors: [Johan Gustafsson]
+description: How to create and begin updating a repository for your new How-to Guide, based on the template repository provided by the Australian BioCommons.
+affiliations: [Australian BioCommons]
+toc: false
+---
 ```
+
+{:start="2"}
+2. Add the same code as above to the page where you would like the tiles to appear: just add a type value (e.g. to `type="start_here"`)
+
 
 ### Example
 
