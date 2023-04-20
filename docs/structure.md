@@ -1,5 +1,6 @@
 ---
 title: How to make sure your How-to Guide is configured properly
+type: guides
 contributors: [Johan Gustafsson]
 description: How to modify the template configuration files to make sure your How-to Guide web pages function as expected.
 affiliations: [Australian BioCommons]

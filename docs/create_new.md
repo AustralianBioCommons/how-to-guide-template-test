@@ -1,6 +1,6 @@
 ---
 title: Creating a new How-to Guide repository
-type: start_here
+type: guides
 contributors: [Johan Gustafsson]
 description: How to create and begin updating a repository for your new How-to Guide, based on the template repository provided by the Australian BioCommons.
 affiliations: [Australian BioCommons]

@@ -9,44 +9,35 @@ toc: true
 
 ## Navigation tiles
 
-An example can be viewed here: https://australianbiocommons.github.io/how-to-guides/
+An example can be [viewed here](https://australianbiocommons.github.io/how-to-guides/).
 
 See the [ELIXIR Toolkit theme](https://elixir-belgium.github.io/elixir-toolkit-theme/overview_tiles#section-tiles-with-information) for more information.
 
 
 ### Include navigation tiles for all pages
 
-To add tiles for the guide pages that you have created, add the following code to the page you would like the tiles to appear on:
+To add tiles for guide pages that you have created, add the following code to the page you would like the tiles to appear on:
 
-{% include image.html file="nav_image.png" alt="nav_image"%}
+```{% include section-navigation-tiles.html %}```
 
+You can also add the following:
+- `type="type_value"` : only shows tiles for pages that have the indicated `type_value` in the page header
+- `search=true` : enables searching - useful for large tile sets
+- `except="index.md"` : removes specific tiles
 
-### Example
+### Example - only pages of type "quick_start"
 
-{% include section-navigation-tiles.html %}
+{% include section-navigation-tiles.html type="quick_start" %}
 
+### Example - only pages of type "template"
 
-### Include navigation tiles for a subset of pages
+{% include section-navigation-tiles.html type="template" %}
 
-To create tiles for a specific subset of your guide pages:
+### Example - only pages of type "guides"
 
-1. Add a `type` field to the header for each of the guides that are included in your subset. For example:
+{% include section-navigation-tiles.html type="guides" %}
 
-```
----
-title: Creating a new How-to Guide repository
-type: start_here
-contributors: [Johan Gustafsson]
-description: How to create and begin updating a repository for your new How-to Guide, based on the template repository provided by the Australian BioCommons.
-affiliations: [Australian BioCommons]
-toc: false
----
-```
+### Example - ALL pages except index.md
 
-{:start="2"}
-2. Add the same code as above to the page where you would like the tiles to appear: just add a type value (e.g. to `type="start_here"`)
+{% include section-navigation-tiles.html except="index.md"%}
 
-
-### Example
-
-{% include section-navigation-tiles.html type="start_here" %}

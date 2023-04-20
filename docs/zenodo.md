@@ -1,5 +1,6 @@
 ---
 title: Creating GitHub releases and Zenodo DOIs for How-to Guides
+type: guides
 contributors: [Johan Gustafsson]
 description: How to create GitHub releases for your How-to Guide and link this to Zenodo to generate digital object identifiers (DOIs).
 affiliations: [Australian BioCommons]

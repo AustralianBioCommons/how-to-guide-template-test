@@ -1,5 +1,6 @@
 ---
 title: How-to Guide landing page template
+type: template
 toc: false
 ---
 

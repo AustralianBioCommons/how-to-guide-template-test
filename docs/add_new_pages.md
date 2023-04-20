@@ -1,5 +1,6 @@
 ---
 title: Adding new pages to your project
+type: guides
 contributors: [Johan Gustafsson]
 description: How to create and update new pages for your How-to Guide.
 affiliations: [Australian BioCommons]
@@ -24,6 +25,12 @@ affiliations: [Australian BioCommons]
 ---   
 ```
 
+{:start="4"}
+4. You can also add another optional line for `type`. This can be used to identify subsets of guide pages: for example if you want to include navigation tiles for only specific pages. An example is provided below.
+
+```
+type: guides
+```
 
 ## Other required information
 
