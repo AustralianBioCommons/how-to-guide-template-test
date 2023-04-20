@@ -9,16 +9,15 @@ affiliations: [Australian BioCommons]
 ## heading 1
 
 > Your guide content goes here!
->
-> See [this link](https://elixir-belgium.github.io/elixir-toolkit-theme/markdown_cheat_sheet#images) for info on adding images.
+
+> See the [ELIXIR Toolkit theme](https://elixir-belgium.github.io/elixir-toolkit-theme/markdown_cheat_sheet#images) for info on adding images.
 
 ### heading 2
 
 > Your guide content goes here!
->
+
 > Below is an example message box, which comes in multiple styles: `note`, `important`, `tip` and `warning`.
->
-> See [this link](https://elixir-belgium.github.io/elixir-toolkit-theme/markdown_cheat_sheet#message-boxes) for info on adding message boxes.
+> See the [ELIXIR Toolkit theme](https://elixir-belgium.github.io/elixir-toolkit-theme/markdown_cheat_sheet#message-boxes) for info on adding message boxes.
 
 {% include callout.html type="note" content="This is a message box. Use the content included here to emphasise important points." %}
 
