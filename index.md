@@ -25,12 +25,11 @@ The template described in these docs aims to:
 
 
 
-## Guide sections
+## Quick start and templates
 
-{% include callout.html type="important" content="Click the tiles below to view the pages for creating new How-to Guides!" %} 
+{% include section-navigation-tiles.html type="quick_start" %}
 
-{% include section-navigation-tiles.html type="start_here" %}
-
+{% include section-navigation-tiles.html type="template" %}
 
 ## Please cite this guide as follows
 

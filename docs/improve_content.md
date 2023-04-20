@@ -1,5 +1,6 @@
 ---
 title: Testing your guides to improve content
+type: guides
 contributors: [Johan Gustafsson]
 description: 
 affiliations: [Australian BioCommons]

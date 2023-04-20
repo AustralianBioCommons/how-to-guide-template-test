@@ -1,5 +1,5 @@
 ---
-title: [Template for an individual How-to Guide page]
+title: [Individual How-to Guide page]
 type: template
 contributors: [Johan Gustafsson]
 description: Add a plain text description here.

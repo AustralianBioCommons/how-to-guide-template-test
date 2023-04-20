@@ -9,8 +9,6 @@ toc: true
 
 ## Navigation tiles
 
-An example can be [viewed here](https://australianbiocommons.github.io/how-to-guides/).
-
 See the [ELIXIR Toolkit theme](https://elixir-belgium.github.io/elixir-toolkit-theme/overview_tiles#section-tiles-with-information) for more information.
 
 
@@ -25,15 +23,15 @@ You can also add the following:
 - `search=true` : enables searching - useful for large tile sets
 - `except="index.md"` : removes specific tiles
 
-### Example - only pages of type "quick_start"
+### Example - only pages of type `"quick_start"`
 
 {% include section-navigation-tiles.html type="quick_start" %}
 
-### Example - only pages of type "template"
+### Example - only pages of type `"template"`
 
 {% include section-navigation-tiles.html type="template" %}
 
-### Example - only pages of type "guides"
+### Example - only pages of type `"guides"`
 
 {% include section-navigation-tiles.html type="guides" %}
 
